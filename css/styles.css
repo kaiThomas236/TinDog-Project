@@ -1,0 +1,197 @@
+/******************************THEME DETAILS******************************/
+/* rgb(255, 70, 90) */
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* <i class="fa-brands fa-apple"></i> */
+/* <i class="fa-brands fa-google-play"></i> */
+
+/* #ef8172 */
+/* <i class="feat-icons fa-solid fa-circle-check"></i> */
+/* <i class="feat-icons fa-solid fa-bullseye"></i> */
+/* <i class="feat-icons fa-solid fa-heart"></i> */
+
+
+/******************************TAG SELECTORS******************************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    font-weight: 500;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 1.5;
+}
+
+/*****************************CLASS SELECTORS*****************************/
+
+/* navbar */
+
+.nav-container {
+    padding: 1% 15% 9%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-weight: 200;
+}
+
+/* title */
+
+.iphone-img {
+    width: 23%;
+    position: absolute;
+    right: 25%;
+    /* top: 42%; */
+    transform: rotate(25deg);
+    
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* features */
+
+.feat-container {
+    text-align: center;
+}
+
+.feat-icons {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.feat-icons:hover {
+    color: rgb(255, 70, 90);
+}
+
+.feat-container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.feat-container p {
+    color: #8f8f8f;
+}
+
+/* testimonials */
+
+.test-container {
+    text-align: center;
+    
+}
+
+.test-container h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.test-container img {
+    aspect-ratio: 1;
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+.price-container {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.card-header-text {
+    margin-top: 3px;
+    line-height: 2rem;
+}
+
+/* .card-price-text {
+
+} */
+
+.col-lg-4 {
+    padding: 3% 2%;
+}
+
+.mo {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: darkslategray;
+    text-shadow: black;
+}
+
+.btn-outline-primary {
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-color: #ef8172;
+    --bs-btn-hover-border-color: rgb(255, 70, 90);
+    --bs-btn-hover-color: rgb(255, 70, 90);
+}
+
+.btn-primary {
+    --bs-btn-bg: #ef8172;
+    --bs-btn-hover-bg: rgb(255, 70, 90);
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-border-color: rgb(255, 70, 90);
+}
+
+.mastiff {
+    color: white;
+}
+
+
+
+
+/*******************************ID SELECTORS*******************************/
+
+#title {
+    background-color: rgb(255, 70, 90);
+    color: white;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+    
+}
+
+#testimonials {
+    color: white;
+    background-color: #ef8172;
+    
+}
+
+#press {
+    color: white;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#press img {
+    width: 12%;
+    height: auto;
+    margin: 20px;
+}
