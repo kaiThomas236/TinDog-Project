@@ -17,6 +17,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 nav {
@@ -25,13 +26,19 @@ nav {
     padding: 0;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 3.25rem;
-    line-height: 1.5;
+/*****************************CLASS SELECTORS*****************************/
+
+/* all */
+
+.bg-color {
+    background-color: rgb(255, 70, 90);
+    color: white;
 }
 
-/*****************************CLASS SELECTORS*****************************/
+.bg-white {
+    background-color: white;
+}
+
 
 /* navbar */
 
@@ -50,11 +57,16 @@ h1 {
 
 /* title */
 
+.header {
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 1.5;
+}
+
 .iphone-img {
     width: 23%;
     position: absolute;
     right: 25%;
-    /* top: 42%; */
     transform: rotate(25deg);
     
 }
@@ -66,10 +78,6 @@ h1 {
 }
 
 /* features */
-
-.feat-container {
-    text-align: center;
-}
 
 .feat-icons {
     color: #ef8172;
@@ -92,11 +100,6 @@ h1 {
 
 /* testimonials */
 
-.test-container {
-    text-align: center;
-    
-}
-
 .test-container h2 {
     font-size: 2.25rem;
     font-weight: 700;
@@ -114,10 +117,17 @@ h1 {
     padding: 7% 15%;
 }
 
+/* press */
+
+.press-img {
+    width: 12%;
+    height: auto;
+    margin: 20px;
+}
+
 /* pricing */
 
 .price-container {
-    text-align: center;
     padding: 5% 0;
 }
 
@@ -125,10 +135,6 @@ h1 {
     margin-top: 3px;
     line-height: 2rem;
 }
-
-/* .card-price-text {
-
-} */
 
 .col-lg-4 {
     padding: 3% 2%;
@@ -160,38 +166,64 @@ h1 {
     color: white;
 }
 
+/* cta */
 
 
+
+/* footer */
+
+.bottom-icon {
+    margin: 0 10px 15px;
+    color: #ef8172;
+    font-size: 1.5rem;
+}
+
+.bottom-icon:hover {
+    color:rgb(255, 70, 90);
+    font-size: 1.5rem;
+}
 
 /*******************************ID SELECTORS*******************************/
 
 #title {
-    background-color: rgb(255, 70, 90);
-    color: white;
+    text-align: left;
 }
 
 #features {
     padding: 7% 15%;
     position: relative;
-    background-color: white;
-    
 }
 
 #testimonials {
-    color: white;
     background-color: #ef8172;
     
 }
 
 #press {
-    color: white;
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
+    
 }
 
-#press img {
-    width: 12%;
-    height: auto;
-    margin: 20px;
+#cta {
+    padding: 5% 10% 2%;
+}
+
+#footer {
+    padding: 5% 0;
+}
+
+/*******************************MEDIA QUERIES*******************************/
+
+@media screen and (max-width: 991px) {
+    .nav-container {
+        text-align: center;
+    }
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+    }
+    .nav-container {
+        padding-bottom: 3%;
+    }
 }
